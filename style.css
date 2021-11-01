@@ -29,3 +29,11 @@ main {
 .main-logo {
    margin-bottom: 15px;
 }
+.main-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.0rem;
+}
+.main-access {
+    margin-top: 2.0rem;
+}
