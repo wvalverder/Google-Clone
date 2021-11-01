@@ -24,7 +24,8 @@ header {
 main {
     margin-top: 150px;
     text-align: center;
+    min-height: 65.0rem;
 }
 .main-logo {
-   
+   margin-bottom: 15px;
 }
