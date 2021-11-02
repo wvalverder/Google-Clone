@@ -44,3 +44,11 @@ main {
     display: flex;
     justify-content: space-between;
 }
+.container-left {
+    display: flex;
+    list-style: none;
+}
+.container-right {
+    display: flex;
+    list-style: none;
+}
