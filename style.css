@@ -24,7 +24,7 @@ header {
 main {
     margin-top: 150px;
     text-align: center;
-    min-height: 65.0rem;
+    min-height: 62.0rem;
 }
 .main-logo {
    margin-bottom: 15px;
@@ -37,8 +37,13 @@ main {
 .main-access {
     margin-top: 2.0rem;
 }
+
+footer  {
+    background-color: lightgray;
+}
 .footer-enunciado {
     padding: 20px;
+    border-bottom: 1px solid black;
 }
 .footer-container {
     display: flex;
@@ -47,8 +52,12 @@ main {
 .container-left {
     display: flex;
     list-style: none;
+    padding-bottom: 2.0rem;
+    padding-top: 2.0rem;
 }
 .container-right {
     display: flex;
     list-style: none;
+    padding-bottom: 2.0rem;
+    padding-top: 2.0rem;
 }
