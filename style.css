@@ -24,7 +24,7 @@ header {
 main {
     margin-top: 15.0rem;
     text-align: center;
-    min-height: 65.0rem;
+    min-height: 65.2rem;
 }
 .main-logo {
    margin-bottom: 1.5rem;
@@ -32,7 +32,7 @@ main {
 .main-button {
     display: flex;
     justify-content: center;
-    margin-top: 2.0rem;
+    margin-top: 2.2rem;
 }
 .main-access {
     margin-top: 2.0rem;
@@ -44,9 +44,10 @@ footer  {
     font-size: 1.12rem;
 }
 .footer-enunciado {
-    padding: 1.2rem;
     border-bottom: 1px solid #dadce0;
-    
+    padding-top:1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 2.0rem;
 }
 .footer-container {
     display: flex;
@@ -55,12 +56,14 @@ footer  {
 .container-left {
     display: flex;
     list-style: none;
+    padding-left: 2.0rem;
     padding-bottom: 1.0rem;
     padding-top: 1.0rem;
 }
 .container-right {
     display: flex;
     list-style: none;
+    padding-right: 2.0rem;
     padding-bottom: 1.0rem;
     padding-top: 1.0rem;
 }
