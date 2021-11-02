@@ -6,28 +6,28 @@
 
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 header {
-    font-size: 1.2rem;
+    font-size: 1.2rem;  
 }
 .nav-container{
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 6px;
+    padding: 0.6rem;
 }
 .item {
-    margin: 6px;
+    margin: 0.6rem;
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 15.0rem;
     text-align: center;
-    min-height: 62.0rem;
+    min-height: 65.0rem;
 }
 .main-logo {
-   margin-bottom: 15px;
+   margin-bottom: 1.5rem;
 }
 .main-button {
     display: flex;
@@ -40,11 +40,13 @@ main {
 
 footer  {
     background-color: #f2f2f2;
-    ;
+    color: #70757a;
+    font-size: 1.12rem;
 }
 .footer-enunciado {
-    padding: 20px;
+    padding: 1.2rem;
     border-bottom: 1px solid #dadce0;
+    
 }
 .footer-container {
     display: flex;
@@ -54,18 +56,18 @@ footer  {
     display: flex;
     list-style: none;
     padding-bottom: 1.0rem;
-    padding-top: 2.0rem;
+    padding-top: 1.0rem;
 }
 .container-right {
     display: flex;
     list-style: none;
     padding-bottom: 1.0rem;
-    padding-top: 2.0rem;
+    padding-top: 1.0rem;
 }
 
 .container-left li {
-    margin: 5px;
+    margin: 0.5rem;
 }
 .container-right li {
-    margin: 5px;
+    margin: 0.5rem;
 }
