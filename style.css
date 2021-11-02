@@ -8,6 +8,11 @@ html {
     font-size: 62.5%;
     font-family: sans-serif;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 header {
     font-size: 1.0rem;  
 }
@@ -18,8 +23,27 @@ header {
     padding: 0.6rem;
     margin-top: 1.0rem;
 }
+.nav-container li  a {
+    color: black;
+}
+.nav-container .imagen a img {
+    width: 3.0rem;
+    height: 3.0rem;
+    border-radius: 50%;
+    background-size: cover;
+}
+
 .item {
     margin: 0.6rem;
+    align-self: center;
+}
+.menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-size: contain;
+    width: 2.5rem;
+    height:2.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 main {
@@ -107,4 +131,11 @@ footer  {
 }
 .container-right li {
     margin: 0.5rem;
+}
+
+.container-right li a {
+    color: #70757a;
+}
+.container-left li a {
+    color:#70757a;
 }
