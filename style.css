@@ -9,13 +9,14 @@ html {
     font-family: sans-serif;
 }
 header {
-    font-size: 1.2rem;  
+    font-size: 1.0rem;  
 }
 .nav-container{
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 0.6rem;
+    margin-top: 1.0rem;
 }
 .item {
     margin: 0.6rem;
@@ -24,18 +25,51 @@ header {
 main {
     margin-top: 15.0rem;
     text-align: center;
-    min-height: 65.2rem;
+    min-height: 64.3rem;
 }
 .main-logo {
    margin-bottom: 1.5rem;
+}
+
+main .main-input input {
+    width: 45.0rem;
+    height: 4.0rem;
+    border-radius: 0.5rem;
+}
+
+main .main-button button {
+    height: 3.5rem;
+    width: 15.0rem;
+    border-radius: 0.5rem;
+    border: 0;
+    background-color: #f2f2f2;
+    color: #5f6368;
+}
+
+main .main-button button:hover {
+    box-shadow: 0 0.1rem 0.1rem black;
+    border: 0.1rem solid #c6c6c6;
+    color: #222;
 }
 .main-button {
     display: flex;
     justify-content: center;
     margin-top: 2.2rem;
 }
+.main-button-container {
+    padding: 0.5rem; 
+}
+
 .main-access {
     margin-top: 2.0rem;
+}
+.main-access-container {
+    display: flex;
+    justify-content: center;
+    color: #70757a;
+}
+.main-access-container p {
+    margin-right: 1.0rem;
 }
 
 footer  {
