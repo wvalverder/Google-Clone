@@ -53,12 +53,19 @@ footer  {
 .container-left {
     display: flex;
     list-style: none;
-    padding-bottom: 2.0rem;
+    padding-bottom: 1.0rem;
     padding-top: 2.0rem;
 }
 .container-right {
     display: flex;
     list-style: none;
-    padding-bottom: 2.0rem;
+    padding-bottom: 1.0rem;
     padding-top: 2.0rem;
+}
+
+.container-left li {
+    margin: 5px;
+}
+.container-right li {
+    margin: 5px;
 }
