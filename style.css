@@ -37,3 +37,10 @@ main {
 .main-access {
     margin-top: 2.0rem;
 }
+.footer-enunciado {
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
